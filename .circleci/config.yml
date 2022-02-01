@@ -47,7 +47,7 @@ jobs:
             ./g1
             ./g2 && ./e3
             ./e4
-    parallelism: 15
+    parallelism: 14
   Bombom:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
